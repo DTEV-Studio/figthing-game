@@ -2,7 +2,7 @@
 
 「✔」Project Setup @done (15-04-22 00:00)
 「✔」Create Player and Enemy @done (15-04-22 00:00)
-「✘」Move Characters with Event Listeners
+「✔」Move Characters with Event Listeners @done (19-04-22 20:00)
 「✘」Attacks
 「✘」Health Bar Interface
 「✘」Game Timer and Game Over
