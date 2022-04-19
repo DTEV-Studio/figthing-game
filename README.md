@@ -6,7 +6,7 @@
 
 「✔」Move Characters with Event Listeners @done (19-04-22 20:00)
 
-「✘」Attacks
+「✔」Attacks @done (19-04-22 21:35)
 
 「✘」Health Bar Interface
 
