@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+.position{
+    position: relative;
+    display: inline-block;
+}
+.container{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+.playerBasket{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    width: 100%;
+}
+.playerHealth{
+    position: absolute;
+    background: blue;
+    top: 0; bottom:0;
+    width: 100%; right:0;
+}
+.playerBin{
+    background-color: yellow;
+    height: 30px;
+    width: 100%;
+}
+.setTimer{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.enemyBasket{
+    position: relative;
+    height: 30px;
+    width: 100%;
+}
+.enemyHealth{
+    position: absolute;
+    background: blue;
+    top: 0; bottom:0;
+    left: 0; right:0;
+}
+.enemyBin{
+    background-color: yellow;
+    height: 30px;
+}

@@ -7,7 +7,7 @@ let lastKey
 
 c.fillRect(0, 0, canvas.width, canvas.height)
 
-const gravity = 0.7
+const gravity = 0.75
 
 class Sprite {
     constructor({position, velocity, color = 'red', offset}) {
@@ -27,6 +27,7 @@ class Sprite {
         }
         this.color = color
         this.isAttacking
+        this.health = 100
     }
 
     draw() {
@@ -152,7 +153,8 @@ function animate() {
         player.isAttacking
     )   {
         player.isAttacking = false
-        console.log('PP')
+        enemy.health -= 20
+        document.getElementById('enemyHealth').style.width = enemy.health + '%';
     }
 
     if (
@@ -163,7 +165,8 @@ function animate() {
         enemy.isAttacking
     )   {
         enemy.isAttacking = false
-        console.log('EP')
+        player.health -= 20
+        document.getElementById('playerHealth').style.width = player.health + '%';
     }
 }
 
