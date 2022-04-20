@@ -10,6 +10,6 @@
 
 「✔」Health Bar Interface @done (20-04-22 22:22)
 
-「✘」Game Timer and Game Over
+「✔」Game Timer and Game Over @done (20-04-22 23:00)
 
 「¿?」Extra?
