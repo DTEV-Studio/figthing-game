@@ -35,6 +35,9 @@
     width: 100px;
     height: 100px;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .enemyBasket{
     position: relative;
@@ -50,4 +53,13 @@
 .enemyBin{
     background-color: yellow;
     height: 30px;
+}
+.Result{
+    position: absolute;
+    color: white;
+    display: none;
+    justify-content:center;
+    align-items: center;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
 }

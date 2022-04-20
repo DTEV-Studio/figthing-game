@@ -120,6 +120,33 @@ function rectangularCollision({rectangle1, rectangle2}){
     )
 }
 
+function determineWinner({player, enemy, setTimerId}){
+    clearTimeout(setTimerId)
+    document.getElementById('Result').style.display = 'flex'
+    if(player.health === enemy.health) {
+        document.getElementById('Result').innerHTML = 'Tie'
+    }else if(player.health > enemy.health) {
+        document.getElementById('Result').innerHTML = 'Player 1 Wins'
+    }else if(player.health < enemy.health) {
+        document.getElementById('Result').innerHTML = 'Player 2 Wins'
+    }
+}
+
+let setTimer = 60
+let setTimerId
+function decreaseTimer(){
+    if(setTimer > 0) {
+        setTimerId = setTimeout(decreaseTimer, 1000)
+        setTimer--
+        document.getElementById('setTimer').innerHTML = setTimer
+    }
+    if (setTimer === 0) {
+    determineWinner({player, enemy, setTimerId})
+    }
+}
+
+decreaseTimer()
+
 function animate() {
     requestAnimationFrame(animate)
     c.fillStyle = 'black'
@@ -168,6 +195,12 @@ function animate() {
         player.health -= 20
         document.getElementById('playerHealth').style.width = player.health + '%';
     }
+
+    //end game based on health
+    if(enemy.health <= 0 || player.health <= 0){
+        determineWinner({player, enemy, setTimerId})
+    }
+    
 }
 
 animate()
