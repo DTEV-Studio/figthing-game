@@ -1,4 +1,4 @@
-# Figthing-game.todo
+# Basic Fighting Game Mechanics:
 
 「✔」Project Setup @done (15-04-22 00:00)
 
@@ -11,5 +11,21 @@
 「✔」Health Bar Interface @done (20-04-22 22:22)
 
 「✔」Game Timer and Game Over @done (20-04-22 23:00)
+
+「¿?」Extra?
+
+# Sprites and Animation:
+
+「✘」Background Sprite
+
+「✘」Shop Sprite With Animation
+
+「✘」Player Sprite (Samurai Jack)
+
+「✘」Enemy Sprite (Kenji)
+
+「✘」Interface Design and Animation
+
+「✘」Pushing Live
 
 「¿?」Extra?
