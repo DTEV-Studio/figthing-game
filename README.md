@@ -18,7 +18,7 @@
 
 「✔」Background Sprite @done (03-05-22 22:50)
 
-「✘」Shop Sprite With Animation
+「✔」Shop Sprite With Animation @done (03-05-22 23:27)
 
 「✘」Player Sprite (Samurai Jack)
 
