@@ -16,7 +16,7 @@
 
 # Sprites and Animation:
 
-「✔」Background Sprite
+「✔」Background Sprite @done (03-05-22 22:50)
 
 「✘」Shop Sprite With Animation
 
