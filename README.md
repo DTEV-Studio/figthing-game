@@ -16,7 +16,7 @@
 
 # Sprites and Animation:
 
-「✘」Background Sprite
+「✔」Background Sprite
 
 「✘」Shop Sprite With Animation
 
