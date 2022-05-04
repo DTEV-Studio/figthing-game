@@ -20,7 +20,11 @@
 
 「✔」Shop Sprite With Animation @done (03-05-22 23:27)
 
-「✘」Player Sprite (Samurai Jack)
+「✔」Player Sprite (Samurai Jack)
+    - Idle @done (04-05-22 14:25)
+    - Run @done (04-05-22 14:41)
+    - Jump @done (04-05-22 15:26)
+    - Attack @done (04-05-22 16:42)
 
 「✘」Enemy Sprite (Kenji)
 
